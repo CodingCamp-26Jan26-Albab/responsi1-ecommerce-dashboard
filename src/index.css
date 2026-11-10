@@ -1,0 +1,30 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  width: 250px;
+  transition: margin 0.25s ease-out;
+}
+
+.bg-dark-custom {
+  background-color: #1e293b !important;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.fade-in-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: -250px;
+  }
+}
